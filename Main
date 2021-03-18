@@ -1,0 +1,8 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Auto Auto = new Auto("typ", new Auto("model"), new Kolor("biały"));
+        System.out.println(Auto);
+    }
