@@ -1,0 +1,9 @@
+package com.company;
+
+public enum Paliwo {
+    String Paliwo;
+
+    public Paliwo(String Paliwo) {
+        this.Paliwo = Paliwo;
+    }
+}
