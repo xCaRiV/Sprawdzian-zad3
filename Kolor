@@ -1,0 +1,9 @@
+package com.company;
+
+public enum Kolor {
+    String Kolor;
+
+    public Kolor(String Kolor) {
+        this.Kolor = Kolor;
+    }
+}
