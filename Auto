@@ -1,0 +1,18 @@
+package com.company;
+
+public class Auto {
+    String auto;
+    Silnik silnik;
+    Kolor kolor;
+
+    public Auto(String auto, Silnik silnik, Kolor kolor) {
+        this.auto = auto;
+        this.silnik = silnik;
+        this.kolor = kolor;
+    }
+    @Override
+    public String toString() {
+        return "ttt";
+    }
+
+}
